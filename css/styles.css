@@ -10,32 +10,63 @@ body {
 }
 
 h1 {
-    background-color: red;
+    font-size: 5rem;
+    color: #0F4C75;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 3%;
 }
 
 /********************************Card Section Style ***************************/
 
 #diceCard {
     display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 3%;
+    width: 100%;
+}
+
+#dice1, #dice2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 2.5%;
+    width: 15%;
+}
+#dice2 {
+    justify-content: flex-end;
+    padding: 0 0 0 2.5%;
 }
 
 .card {
     width: 12%;
     height: 25vh;
-    margin-right: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    background: #3282B8;
 }
 
 .card1, .card2, .card3, .card4, .card5, .card6 {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;    
+    justify-content: space-between; 
 }
 
 .card1 {
     justify-content: center;
+}
+
+.card2 { 
+}
+
+.card3 {
+}
+
+.card4 {
+}
+
+.card5 {
 }
 
 .card6 {
@@ -72,6 +103,21 @@ h1 {
     width: 100%;
     justify-content: space-between;
 }
+
+/****************************************Button STYLE ***************************************/
+
+.roll-button {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.roll {
+    font-size: 1.7rem;
+    width: 20%;
+
+}
+
+
 
 
 
