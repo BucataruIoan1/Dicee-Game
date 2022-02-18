@@ -27,88 +27,29 @@ h1 {
     width: 100%;
 }
 
-#dice1, #dice2 {
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 2.5%;
-    width: 15%;
-}
-#dice2 {
-    justify-content: flex-end;
-    padding: 0 0 0 2.5%;
+#dice1 {
+    margin-right: 5%;
 }
 
-.card {
-    width: 12%;
-    height: 25vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    background: #3282B8;
+img {
+    border-radius: 5%;
+    height: 20vh;   
 }
 
-.card1, .card2, .card3, .card4, .card5, .card6 {
-    display: flex;
-    justify-content: space-between; 
+.face, .face0 {
+    display: none;
 }
 
-.card1 {
-    justify-content: center;
-}
-
-.card2 { 
-}
-
-.card3 {
-}
-
-.card4 {
-}
-
-.card5 {
-}
-
-.card6 {
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.dot {
-    background-color: grey;
-    border-radius: 50%;
+.face1, .face7 {
     display: block;
-    height: 2rem;
-    width: 2rem;
-    margin-top: 16px;    
 }
 
-.dotLeft {
-    align-self: flex-start;
-    margin-left: 16px;
-}
-
-.dotRight {
-    align-self: flex-end;
-    margin-right: 16px;
-}
-
-.dotCenter {
-    align-self: center;
-    margin: 0;
-}
-
-.cardTop, .cardBottom {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
 /****************************************Button STYLE ***************************************/
 
 .roll-button {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .roll {
