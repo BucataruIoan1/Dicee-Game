@@ -7,14 +7,19 @@
 
 body {
     background-image: url(images/diceeback.jpg);
+    height: 100vh;
 }
 
-h1 {
+h1, h2 {
     font-size: 5rem;
     color: #0F4C75;
     font-family: 'Lobster', cursive;
     text-align: center;
     padding-top: 3%;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 /********************************Card Section Style ***************************/
@@ -23,12 +28,29 @@ h1 {
     display: flex;
     position: relative;
     justify-content: center;
-    padding-top: 3%;
+    padding-top: 10%;
     width: 100%;
 }
 
 #dice1 {
     margin-right: 5%;
+}
+
+/*****************************************User Section Style ***************************/
+
+.user1, .user2 {
+    position: absolute;
+    top: 10%;
+    color: #BBE1FA;
+    text-align: center;
+}
+
+.user1 {
+    left: 40%;
+}
+
+.user2 {
+    right: 40%;
 }
 
 img {
@@ -45,17 +67,16 @@ img {
 }
 
 
-/****************************************Button STYLE ***************************************/
+/****************************************Button Section STYLE ***************************************/
 
 .roll-button {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .roll {
     font-size: 1.7rem;
     width: 20%;
-
 }
 
 
