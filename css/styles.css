@@ -79,6 +79,171 @@ img {
     width: 20%;
 }
 
+/*****************************************Media Query STYLE Section **********************************/
+
+@media (max-width: 300px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #diceCard {
+        padding-top: 40%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dice1 {
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .user1 {
+        left: 15%;
+    }
+    
+    .user2 {
+        right: 15%;
+    }
+
+    .user1, .user2 {
+        top: 0;
+    }
+
+    .roll-button {
+        padding-top: 15%;
+    }
+
+    .roll {
+        width: 75%;
+    }
+}
+
+
+@media (min-width: 301px) and (max-width: 480px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #diceCard {
+        padding-top: 40%;
+    }
+
+    .user1 {
+        left: 20%;
+    }
+    
+    .user2 {
+        right: 20%;
+    }
+
+    .roll-button {
+        padding-top: 15%;
+    }
+
+    .roll {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #diceCard {
+        padding-top: 30%;
+    }
+
+    .user1 {
+        left: 30%;
+    }
+    
+    .user2 {
+        right: 30%;
+    }
+
+    .roll-button {
+        padding-top: 10%;
+    }
+
+    .roll {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #diceCard {
+        padding-top: 20%;
+    }
+
+    .user1 {
+        left: 30%;
+    }
+    
+    .user2 {
+        right: 30%;
+    }
+
+    .roll-button {
+        padding-top: 10%;
+    }
+
+    .roll {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1365px) {
+
+
+    #diceCard {
+        padding-top: 20%;
+    }
+
+    .user1 {
+        left: 35%;
+    }
+    
+    .user2 {
+        right: 35%;
+    }
+
+    .roll-button {
+        padding-top: 10%;
+    }
+
+    .roll {
+        width: 50%;
+    }
+
+}
 
 
 
