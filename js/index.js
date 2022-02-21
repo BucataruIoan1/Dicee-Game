@@ -1,5 +1,13 @@
+// Target the button element
+
 let buttonElement = document.querySelector('.roll');
+
+// Add a Event Listener (click) and a function who choose a dice face between 1-6
+
 buttonElement.addEventListener('click', function rollDice() {
+
+    // Get a random number value 1
+    
     let value = Math.floor((Math.random() * 6) + 1);
 
     if (value === 1) {
@@ -26,6 +34,8 @@ buttonElement.addEventListener('click', function rollDice() {
         addRemoveClasses('face', 'face1');
         document.querySelectorAll('img')[5].classList.add('face1');
     }
+
+    // Get a random number value 2
 
     let value2 = Math.floor((Math.random() * 6) + 1);
 
@@ -65,6 +75,8 @@ buttonElement.addEventListener('click', function rollDice() {
     }
 
 });
+
+// Add and Delete Classes
 
 function addRemoveClasses (addClass, removeClass) {
     for (let i = 0; i < document.querySelectorAll('img').length; i++) {

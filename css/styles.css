@@ -1,3 +1,5 @@
+/**********************************Default Style *****************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -19,38 +21,35 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 /********************************Card Section Style ***************************/
 
 #diceCard {
     display: flex;
-    position: relative;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 2%;
     width: 100%;
 }
 
-#dice1 {
+#dice1, #dice2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-right: 5%;
+}
+
+#dice2 {
+    margin-right: 0;
 }
 
 /*****************************************User Section Style ***************************/
 
 .user1, .user2 {
-    position: absolute;
-    top: 10%;
     color: #BBE1FA;
     text-align: center;
-}
-
-.user1 {
-    left: 40%;
-}
-
-.user2 {
-    right: 40%;
+    padding-bottom: 10%;
 }
 
 img {
@@ -65,7 +64,6 @@ img {
 .face1, .face7 {
     display: block;
 }
-
 
 /****************************************Button Section STYLE ***************************************/
 
@@ -92,7 +90,7 @@ img {
     }
 
     #diceCard {
-        padding-top: 40%;
+        padding-top: 20%;
         flex-direction: column;
         align-items: center;
     }
@@ -100,18 +98,6 @@ img {
     #dice1 {
         margin-right: 0;
         margin-bottom: 5%;
-    }
-
-    .user1 {
-        left: 15%;
-    }
-    
-    .user2 {
-        right: 15%;
-    }
-
-    .user1, .user2 {
-        top: 0;
     }
 
     .roll-button {
@@ -127,23 +113,22 @@ img {
 @media (min-width: 301px) and (max-width: 480px) {
 
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #diceCard {
-        padding-top: 40%;
+        padding-top: 20%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .user1 {
-        left: 20%;
-    }
-    
-    .user2 {
-        right: 20%;
+    #dice1 {
+        margin-right: 0;
+        margin-bottom: 5%;
     }
 
     .roll-button {
@@ -151,7 +136,7 @@ img {
     }
 
     .roll {
-        width: 50%;
+        width: 75%;
     }
 
 }
@@ -159,23 +144,15 @@ img {
 @media (min-width: 481px) and (max-width: 767px) {
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     #diceCard {
-        padding-top: 30%;
-    }
-
-    .user1 {
-        left: 30%;
-    }
-    
-    .user2 {
-        right: 30%;
+        padding-top: 10%;
     }
 
     .roll-button {
@@ -195,19 +172,11 @@ img {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #diceCard {
-        padding-top: 20%;
-    }
-
-    .user1 {
-        left: 30%;
-    }
-    
-    .user2 {
-        right: 30%;
+        padding-top: 10%;
     }
 
     .roll-button {
@@ -224,15 +193,7 @@ img {
 
 
     #diceCard {
-        padding-top: 20%;
-    }
-
-    .user1 {
-        left: 35%;
-    }
-    
-    .user2 {
-        right: 35%;
+        padding-top: 10%;
     }
 
     .roll-button {
@@ -244,7 +205,3 @@ img {
     }
 
 }
-
-
-
-
